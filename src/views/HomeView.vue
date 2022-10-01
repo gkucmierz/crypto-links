@@ -49,10 +49,11 @@ export default {
       return url.replace(/^https?:\/\//, '');
     },
     keywordColor(keyword) {
+      const salt = 0.12659108437773758; //Math.random();
       return {
-        '--light-color': colorHash.light.hex(keyword),
-        '--mid-color': colorHash.mid.hex(keyword),
-        '--dark-color': colorHash.dark.hex(keyword),
+        '--light-color': colorHash.light.hex(keyword + salt),
+        '--mid-color': colorHash.mid.hex(keyword + salt),
+        '--dark-color': colorHash.dark.hex(keyword + salt),
       }
     }
   },
