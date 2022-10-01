@@ -87,7 +87,7 @@ const links = [
   },
   {
     title: 'Bitcoin Legality Map',
-    url: 'https://www.bitrawr.com/terminal/legality-map',
+    url: 'https://bitrawr.com/terminal/legality-map',
     keywords: [BTC, 'legal', 'illegal', 'alegal', 'legal tender'],
     description: '',
   },
@@ -111,7 +111,7 @@ const links = [
   },
   {
     title: 'BitListen',
-    url: 'https://www.bitlisten.com',
+    url: 'https://bitlisten.com',
     keywords: [BTC, MEMPOOL, VISUALIZATION],
     description: '',
   },
