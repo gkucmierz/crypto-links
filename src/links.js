@@ -8,6 +8,7 @@ const ORDERBOOK = 'orderbook';
 const BLOCKCHAIN = 'blockchain';
 const BLOCK_EXPLORER = 'block explorer';
 const MEMPOOL = 'mempool';
+const WALLET = 'wallet';
 
 // categories:
 const TOOL = 'tool';
@@ -132,6 +133,18 @@ const links = [
     url: 'https://beaconscan.com',
     keywords: [ETH, BLOCKCHAIN, BLOCK_EXPLORER, 'ETH2'],
     description: 'The Official Etherscan Beacon Chain Ethereum 2.0 Explorer',
+  },
+  {
+    title: 'Bitcoin Obituaries',
+    url: 'https://99bitcoins.com/bitcoin-obituaries',
+    keywords: [BTC, 'obituaries'],
+    description: 'How many times Bitcoin has died',
+  },
+  {
+    title: 'Wallet Scrutiny',
+    url: 'https://walletscrutiny.com',
+    keywords: [BTC, ETH, WALLET, 'scrutiny'],
+    description: 'The aim of this project is to improve the security of Bitcoin wallets by examining products for transparency and potential attacks',
   },
   // {
   //   title: '',
