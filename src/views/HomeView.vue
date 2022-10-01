@@ -31,11 +31,17 @@
 import links from '@/links';
 import ColorHash from 'color-hash';
 
-const colorHash = {
-  light: new ColorHash({ lightness: 0.88, saturation: 0.8 }),
-  mid:   new ColorHash({ lightness: 0.75, saturation: 0.8 }),
-  dark:  new ColorHash({ lightness: 0.25, saturation: 0.8 }),
-};
+const colorHash = (() => {
+  const color = {
+    light: new ColorHash({ lightness: 0.88, saturation: 0.8 }),
+    mid:   new ColorHash({ lightness: 0.75, saturation: 0.8 }),
+    dark:  new ColorHash({ lightness: 0.25, saturation: 0.8 }),
+  };
+  return (keyword, light) => {
+    const salt = 0.12659108437773758; //Math.random();
+    return color[light].hex([keyword, salt].join(''));
+  };
+})();
 
 export default {
   name: 'HomeView',
@@ -49,22 +55,13 @@ export default {
       return url.replace(/^https?:\/\//, '');
     },
     keywordColor(keyword) {
-      const salt = 0.12659108437773758; //Math.random();
       return {
-        '--light-color': colorHash.light.hex(keyword + salt),
-        '--mid-color': colorHash.mid.hex(keyword + salt),
-        '--dark-color': colorHash.dark.hex(keyword + salt),
-      }
-    }
+        '--light-color': colorHash(keyword, 'light'),
+        '--mid-color': colorHash(keyword, 'mid'),
+        '--dark-color': colorHash(keyword, 'dark'),
+      };
+    },
   },
-  computed: {
-    // cssVars(...a) {
-    //   console.log(Math.random())
-    //   return {
-    //     '--bg-color': '#f00',
-    //   }
-    // }
-  }
 }
 </script>
 
