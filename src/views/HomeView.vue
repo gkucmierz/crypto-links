@@ -12,7 +12,13 @@
           <a :href="link.url" target="_blank">{{ stripProtocol(link.url) }}</a>
         </div>
         <div class="keywords">
-          {{ link.keywords }}
+          <span
+            class="keyword"
+            v-for="(keyword, ki) in link.keywords"
+            v-bind:key="ki"
+          >
+            {{ keyword }}
+          </span>
         </div>
       </li>
     </ul>
@@ -52,7 +58,9 @@ ul {
     div {
       padding: 8px;
       flex-basis: 0;
+      align-items: center;
       // border: 1px solid black;
+      margin: auto 0;
 
       &.title {
         flex-grow: 1;
@@ -62,6 +70,18 @@ ul {
       }
       &.keywords {
         flex-grow: 3;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        .keyword {
+          background-color: #c44;
+          color: #fff;
+          padding: 4px 8px;
+          white-space: nowrap;
+          border-radius: 8px 0;
+        }
       }
 
       // &:nth-child(odd) {
