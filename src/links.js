@@ -1,4 +1,5 @@
 
+// misc:
 const MEV = 'MEV';
 const WEB3 = 'web3';
 const SOLIDITY = 'solidity';
@@ -9,6 +10,8 @@ const BLOCKCHAIN = 'blockchain';
 const BLOCK_EXPLORER = 'block explorer';
 const MEMPOOL = 'mempool';
 const WALLET = 'wallet';
+const MNEMONIC = 'mnemonic';
+const SEED = 'seed';
 
 // categories:
 const TOOL = 'tool';
@@ -23,6 +26,7 @@ const ETH = 'ETH';
 const BTC = 'BTC';
 const PLN = 'PLN';
 
+// BIP codes generator:
 const BIP = n => `BIP ${n}`;
 
 const links = [
@@ -145,6 +149,12 @@ const links = [
     url: 'https://walletscrutiny.com',
     keywords: [BTC, ETH, WALLET, 'scrutiny'],
     description: 'The aim of this project is to improve the security of Bitcoin wallets by examining products for transparency and potential attacks',
+  },
+  {
+    title: 'Mnemonic Code Converter',
+    url: 'https://iancoleman.io/bip39',
+    keywords: [BTC, TOOL, MNEMONIC, SEED, BIP(39), BIP(32), BIP(44), BIP(49), BIP(84), BIP(85), BIP(141)],
+    description: '',
   },
   // {
   //   title: '',
