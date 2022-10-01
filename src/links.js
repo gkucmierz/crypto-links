@@ -156,6 +156,12 @@ const links = [
     keywords: [BTC, TOOL, MNEMONIC, SEED, BIP(39), BIP(32), BIP(44), BIP(49), BIP(84), BIP(85), BIP(141)],
     description: '',
   },
+  {
+    title: 'MyCrypto',
+    url: 'https://mycrypto.com',
+    keywords: [ETH, TOOL, WALLET],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
