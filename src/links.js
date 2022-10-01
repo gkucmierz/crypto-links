@@ -4,6 +4,7 @@ const BTC = 'BTC';
 const MEV = 'MEV';
 const WEB3 = 'web3';
 const SOLIDITY = 'solidity';
+const TOOL = 'tool';
 
 const BIP = n => `BIP ${n}`;
 
@@ -36,6 +37,12 @@ const links = [
     title: 'ultra sound money',
     url: 'https://ultrasound.money',
     keywords: [ETH, MEV, 'supply', 'burn'],
+    description: '',
+  },
+  {
+    title: 'Chainlist',
+    url: 'https://chainlist.org',
+    keywords: [TOOL, ETH, WEB3, 'EVM', 'RPC', 'chain'],
     description: '',
   },
   // {
