@@ -121,6 +121,18 @@ const links = [
     keywords: [BTC, MEMPOOL, VISUALIZATION],
     description: '',
   },
+  {
+    title: 'Etherscan',
+    url: 'https://etherscan.io',
+    keywords: [ETH, BLOCKCHAIN, BLOCK_EXPLORER],
+    description: 'The Ethereum Blockchain Explorer',
+  },
+  {
+    title: 'BeaconScan',
+    url: 'https://beaconscan.com',
+    keywords: [ETH, BLOCKCHAIN, BLOCK_EXPLORER, 'ETH2'],
+    description: 'The Official Etherscan Beacon Chain Ethereum 2.0 Explorer',
+  },
   // {
   //   title: '',
   //   url: '',
