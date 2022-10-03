@@ -89,10 +89,10 @@ const links = [
     description: 'Making Bitcoin data accessible to everyone',
   },
   {
-    title: 'coinlobster',
+    title: 'Combined Orderbook ',
     url: 'https://coinlobster.com',
     keywords: [BTC, ORDERBOOK],
-    description: 'Combined Orderbook',
+    description: '',
   },
   {
     title: 'Bitcoin Legality Map',
