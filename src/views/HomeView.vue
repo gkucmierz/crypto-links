@@ -73,7 +73,7 @@ export default {
     setTimeout(() => this.filterLinks());
     return {
       links: links,
-      keywords: [],
+      keywords,
     }
   },
   methods: {
