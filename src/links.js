@@ -176,6 +176,6 @@ const links = [
   //   keywords: [],
   //   description: '',
   // },
-];
+].reverse();
 
 export default links;
