@@ -12,8 +12,10 @@ const MEMPOOL = 'mempool';
 const WALLET = 'wallet';
 const MNEMONIC = 'mnemonic';
 const SEED = 'seed';
+const PRIVKEY = 'privkey';
 const MULTISIG = 'multisig';
 const OSS = 'OSS';
+const FORK = 'FORK';
 
 // categories:
 const TOOL = 'tool';
@@ -35,7 +37,7 @@ const links = [
   {
     title: 'Wen merge',
     url: 'https://wenmerge.com',
-    keywords: [ETH],
+    keywords: [ETH, FORK],
     description: '',
   },
   {
@@ -161,19 +163,25 @@ const links = [
   {
     title: 'MyCrypto',
     url: 'https://mycrypto.com',
-    keywords: [ETH, TOOL, WALLET, OSS],
+    keywords: [ETH, TOOL, WALLET, OSS, PRIVKEY],
     description: '',
   },
   {
     title: 'Coinb.in',
     url: 'https://coinb.in',
-    keywords: [BTC, TOOL, WALLET, MULTISIG, OSS],
+    keywords: [BTC, TOOL, WALLET, MULTISIG, OSS, PRIVKEY],
     description: '',
   },
   {
     title: 'CoinGecko',
     url: 'https://coingecko.com',
     keywords: [BTC, ETH, BLOCKCHAIN],
+    description: '',
+  },
+  {
+    title: 'Vanity ETH Address Generator',
+    url: 'https://gkucmierz.github.io/vanity-eth',
+    keywords: [ETH, TOOL, WALLET, PRIVKEY, 'vanity address'],
     description: '',
   },
   // {
