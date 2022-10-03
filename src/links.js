@@ -170,6 +170,12 @@ const links = [
     keywords: [BTC, TOOL, WALLET, MULTISIG, OSS],
     description: '',
   },
+  {
+    title: 'CoinGecko',
+    url: 'https://coingecko.com',
+    keywords: [BTC, ETH, BLOCKCHAIN],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
