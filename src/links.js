@@ -16,6 +16,7 @@ const PRIVKEY = 'privkey';
 const MULTISIG = 'multisig';
 const OSS = 'OSS';
 const FORK = 'FORK';
+const DEFI = 'DeFi';
 
 // categories:
 const TOOL = 'tool';
@@ -183,6 +184,12 @@ const links = [
     url: 'https://gkucmierz.github.io/vanity-eth',
     keywords: [ETH, TOOL, WALLET, PRIVKEY, 'vanity address'],
     description: '',
+  },
+  {
+    title: 'L2BEAT',
+    url: 'https://l2beat.com',
+    keywords: [ETH, DEFI, CHARTS, 'L2', 'scaling'],
+    description: 'Analytics and research website about Ethereum layer two (L2) scaling',
   },
   // {
   //   title: '',
