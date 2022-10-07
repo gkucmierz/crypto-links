@@ -17,6 +17,7 @@ const MULTISIG = 'multisig';
 const OSS = 'OSS';
 const FORK = 'FORK';
 const DEFI = 'DeFi';
+const LINKS = 'links';
 
 // categories:
 const TOOL = 'tool';
@@ -146,7 +147,7 @@ const links = [
   {
     title: 'Bitcoin Obituaries',
     url: 'https://99bitcoins.com/bitcoin-obituaries',
-    keywords: [BTC, 'obituaries'],
+    keywords: [BTC, NEWS, 'obituaries'],
     description: 'How many times Bitcoin has died',
   },
   {
@@ -176,25 +177,25 @@ const links = [
   {
     title: 'CoinGecko',
     url: 'https://coingecko.com',
-    keywords: [BTC, ETH, BLOCKCHAIN, 'links'],
+    keywords: [BTC, ETH, BLOCKCHAIN, LINKS],
     description: '',
   },
   {
     title: 'Vanity ETH Address Generator',
     url: 'https://gkucmierz.github.io/vanity-eth',
-    keywords: [ETH, TOOL, WALLET, PRIVKEY, 'vanity address'],
+    keywords: [ETH, TOOL, WALLET, PRIVKEY, OSS, 'vanity address'],
     description: '',
   },
   {
     title: 'L2BEAT',
     url: 'https://l2beat.com',
-    keywords: [ETH, DEFI, CHARTS, 'L2', 'scaling'],
+    keywords: [ETH, DEFI, CHARTS, LINKS, 'L2', 'scaling'],
     description: 'Analytics and research website about Ethereum layer two (L2) scaling',
   },
   {
     title: 'kycnot.me',
     url: 'https://kycnot.me',
-    keywords: ['BTC', 'ETH', 'KYC', 'links'],
+    keywords: ['BTC', 'ETH', 'KYC', LINKS],
     description: 'NON-KYC exchanges and services to use and spend your crypto anonymously',
   },
   // {
