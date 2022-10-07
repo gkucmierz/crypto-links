@@ -176,7 +176,7 @@ const links = [
   {
     title: 'CoinGecko',
     url: 'https://coingecko.com',
-    keywords: [BTC, ETH, BLOCKCHAIN],
+    keywords: [BTC, ETH, BLOCKCHAIN, 'links'],
     description: '',
   },
   {
@@ -190,6 +190,12 @@ const links = [
     url: 'https://l2beat.com',
     keywords: [ETH, DEFI, CHARTS, 'L2', 'scaling'],
     description: 'Analytics and research website about Ethereum layer two (L2) scaling',
+  },
+  {
+    title: 'kycnot.me',
+    url: 'https://kycnot.me',
+    keywords: ['BTC', 'ETH', 'KYC', 'links'],
+    description: 'NON-KYC exchanges and services to use and spend your crypto anonymously',
   },
   // {
   //   title: '',
