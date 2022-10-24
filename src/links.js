@@ -198,6 +198,12 @@ const links = [
     keywords: ['BTC', 'ETH', 'KYC', LINKS],
     description: 'NON-KYC exchanges and services to use and spend your crypto anonymously',
   },
+  {
+    title: 'Bitcoin Only',
+    url: 'https://bitcoin-only.com',
+    keywords: ['BTC', LINKS, 'education'],
+    description: 'Collection of the highest quality Bitcoin resources',
+  },
   // {
   //   title: '',
   //   url: '',
