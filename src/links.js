@@ -18,6 +18,8 @@ const OSS = 'OSS';
 const FORK = 'FORK';
 const DEFI = 'DeFi';
 const LINKS = 'links';
+const DAO = 'DAO';
+const BURN = 'burn';
 
 // categories:
 const TOOL = 'tool';
@@ -63,7 +65,7 @@ const links = [
   {
     title: 'ultra sound money',
     url: 'https://ultrasound.money',
-    keywords: [ETH, MEV, 'supply', 'burn'],
+    keywords: [ETH, MEV, 'supply', BURN],
     description: '',
   },
   {
@@ -195,14 +197,44 @@ const links = [
   {
     title: 'kycnot.me',
     url: 'https://kycnot.me',
-    keywords: ['BTC', 'ETH', 'KYC', LINKS],
+    keywords: [BTC, 'ETH', 'KYC', LINKS],
     description: 'NON-KYC exchanges and services to use and spend your crypto anonymously',
   },
   {
     title: 'Bitcoin Only',
     url: 'https://bitcoin-only.com',
-    keywords: ['BTC', LINKS, 'education'],
+    keywords: [BTC, LINKS, 'education'],
     description: 'Collection of the highest quality Bitcoin resources',
+  },
+  {
+    title: 'OpenOrgs.info',
+    url: 'https://openorgs.info',
+    keywords: [ETH, LINKS, DAO],
+    description: 'DAOs as new companies and their balance sheets',
+  },
+  {
+    title: 'Money Movers',
+    url: 'https://money-movers.info',
+    keywords: [BTC, ETH, CHARTS],
+    description: '',
+  },
+  {
+    title: 'Ethereum Nodes',
+    url: 'https://ethereumnodes.com',
+    keywords: [ETH, LINKS],
+    description: '',
+  },
+  {
+    title: 'Crypto Fees',
+    url: 'https://cryptofees.info',
+    keywords: [ETH, LINKS, 'fees'],
+    description: '',
+  },
+  {
+    title: 'ETH Burned',
+    url: 'https://ethburned.info',
+    keywords: [ETH, CHARTS, BURN],
+    description: '',
   },
   // {
   //   title: '',
