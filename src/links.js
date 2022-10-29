@@ -20,6 +20,7 @@ const DEFI = 'DeFi';
 const LINKS = 'links';
 const DAO = 'DAO';
 const BURN = 'burn';
+const LN = 'LN';
 
 // categories:
 const TOOL = 'tool';
@@ -235,6 +236,12 @@ const links = [
     url: 'https://ethburned.info',
     keywords: [ETH, CHARTS, BURN],
     description: '',
+  },
+  {
+    title: 'CoinDebit',
+    url: 'https://www.coindebit.io',
+    keywords: [BTC, LN, TOOL, 'card', 'VISA'],
+    description: 'Create virtual debit card using Lightning Network',
   },
   // {
   //   title: '',
