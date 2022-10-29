@@ -143,6 +143,9 @@ ul {
       }
       &.link {
         flex-grow: 3;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
       }
       &.keywords {
         flex-grow: 3;
