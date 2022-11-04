@@ -21,6 +21,7 @@ const LINKS = 'links';
 const DAO = 'DAO';
 const BURN = 'burn';
 const LN = 'LN';
+const SERVICE = 'service';
 
 // categories:
 const TOOL = 'tool';
@@ -242,6 +243,12 @@ const links = [
     url: 'https://coindebit.io',
     keywords: [BTC, LN, TOOL, 'card', 'VISA'],
     description: 'Create virtual debit card using Lightning Network',
+  },
+  {
+    title: 'Offline Cash',
+    url: 'https://offline.cash',
+    keywords: [BTC, SERVICE, WALLET, SATOSHI, PRIVKEY, 'cash'],
+    description: 'Bitcoin that\'s easy to save, spend and hold in a self-sovereign way',
   },
   // {
   //   title: '',
