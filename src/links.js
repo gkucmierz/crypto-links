@@ -241,7 +241,7 @@ const links = [
   {
     title: 'CoinDebit',
     url: 'https://coindebit.io',
-    keywords: [BTC, LN, TOOL, 'card', 'VISA'],
+    keywords: [BTC, LN, SERVICE, 'card', 'VISA'],
     description: 'Create virtual debit card using Lightning Network',
   },
   {
