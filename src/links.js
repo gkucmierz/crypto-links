@@ -250,6 +250,12 @@ const links = [
     keywords: [BTC, SERVICE, WALLET, SATOSHI, PRIVKEY, 'cash'],
     description: 'Bitcoin that\'s easy to save, spend and hold in a self-sovereign way',
   },
+  {
+    title: 'Lightning Network Proxy',
+    url: 'https://lnproxy.org',
+    keywords: [BTC, LN, SERVICE, 'proxy'],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
