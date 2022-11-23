@@ -22,6 +22,7 @@ const DAO = 'DAO';
 const BURN = 'burn';
 const LN = 'LN';
 const SERVICE = 'service';
+const FEES = 'fees';
 
 // categories:
 const TOOL = 'tool';
@@ -229,7 +230,7 @@ const links = [
   {
     title: 'Crypto Fees',
     url: 'https://cryptofees.info',
-    keywords: [ETH, LINKS, 'fees'],
+    keywords: [ETH, LINKS, FEES],
     description: '',
   },
   {
@@ -254,6 +255,12 @@ const links = [
     title: 'Lightning Network Proxy',
     url: 'https://lnproxy.org',
     keywords: [BTC, LN, SERVICE, 'proxy'],
+    description: '',
+  },
+  {
+    title: 'Bitcoin Visuals',
+    url: 'https://bitcoinvisuals.com',
+    keywords: [BTC, LN, LINKS, CHARTS, FEES, 'stats'],
     description: '',
   },
   // {
