@@ -263,6 +263,12 @@ const links = [
     keywords: [BTC, LN, LINKS, CHARTS, FEES, 'stats'],
     description: '',
   },
+  {
+    title: 'The Halvening',
+    url: 'https://www.thehalvening.com',
+    keywords: [BTC, VISUALIZATION, 'halving'],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
