@@ -265,7 +265,7 @@ const links = [
   },
   {
     title: 'The Halvening',
-    url: 'https://www.thehalvening.com',
+    url: 'https://thehalvening.com',
     keywords: [BTC, VISUALIZATION, 'halving'],
     description: '',
   },
