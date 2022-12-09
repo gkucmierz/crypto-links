@@ -269,6 +269,12 @@ const links = [
     keywords: [BTC, VISUALIZATION, 'halving'],
     description: '',
   },
+  {
+    title: 'BTC Map',
+    url: 'https://btcmap.org',
+    keywords: [BTC, LN, LINKS, 'map'],
+    description: 'Easily find places to spend sats anywhere on the planet',
+  },
   // {
   //   title: '',
   //   url: '',
