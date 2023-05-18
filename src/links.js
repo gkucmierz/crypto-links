@@ -275,6 +275,12 @@ const links = [
     keywords: [BTC, LN, LINKS, 'map'],
     description: 'Easily find places to spend sats anywhere on the planet',
   },
+  {
+    title: 'OP_RETURN',
+    url: 'https://preturnio.com',
+    keywords: [BTC, BLOCKCHAIN, 'search', ],
+    description: 'Full-text search for Bitcoin',
+  },
   // {
   //   title: '',
   //   url: '',
