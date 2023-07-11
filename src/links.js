@@ -2,6 +2,7 @@
 // misc:
 const MEV = 'MEV';
 const WEB3 = 'web3';
+const EVM = 'EVM';
 const SOLIDITY = 'solidity';
 const SATOSHI = 'satoshi';
 const CHARTS = 'charts';
@@ -74,7 +75,7 @@ const links = [
   {
     title: 'Chainlist',
     url: 'https://chainlist.org',
-    keywords: [TOOL, ETH, WEB3, 'EVM', 'RPC', 'chain'],
+    keywords: [TOOL, ETH, WEB3, EVM, 'RPC', 'chain'],
     description: '',
   },
   {
@@ -280,6 +281,12 @@ const links = [
     url: 'https://preturnio.com',
     keywords: [BTC, BLOCKCHAIN, 'search', ],
     description: 'Full-text search for Bitcoin',
+  },
+  {
+    title: 'Revoke DeFi allovance',
+    url: 'https://revoke.cash',
+    keywords: [ETH, BLOCKCHAIN, DEFI, EVM, 'revoke', 'allowance'],
+    description: '',
   },
   // {
   //   title: '',
