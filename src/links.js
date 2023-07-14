@@ -24,6 +24,7 @@ const BURN = 'burn';
 const LN = 'LN';
 const SERVICE = 'service';
 const FEES = 'fees';
+const WATCH = 'watch';
 
 // categories:
 const TOOL = 'tool';
@@ -37,6 +38,7 @@ const PL = 'PL';
 const ETH = 'ETH';
 const BTC = 'BTC';
 const PLN = 'PLN';
+const DAI = 'DAI';
 
 // BIP codes generator:
 const BIP = n => `BIP ${n}`;
@@ -57,7 +59,7 @@ const links = [
   {
     title: 'MEV Watch',
     url: 'https://mevwatch.info',
-    keywords: [ETH, 'OFAC', 'MEV'],
+    keywords: [ETH, WATCH, 'OFAC', 'MEV'],
     description: '',
   },
   {
@@ -69,7 +71,7 @@ const links = [
   {
     title: 'ultra sound money',
     url: 'https://ultrasound.money',
-    keywords: [ETH, MEV, 'supply', BURN],
+    keywords: [ETH, MEV, WATCH, 'supply', BURN],
     description: '',
   },
   {
@@ -286,6 +288,12 @@ const links = [
     title: 'Revoke DeFi allovance',
     url: 'https://revoke.cash',
     keywords: [ETH, BLOCKCHAIN, DEFI, EVM, 'revoke', 'allowance'],
+    description: '',
+  },
+  {
+    title: 'Watch maker burn',
+    url: 'https://makerburn.com',
+    keywords: [ETH, DAI, DEFI, DAO, WATCH, 'maker', 'stable'],
     description: '',
   },
   // {
