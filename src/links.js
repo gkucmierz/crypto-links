@@ -296,6 +296,12 @@ const links = [
     keywords: [ETH, DAI, DEFI, DAO, WATCH, 'maker', 'stable'],
     description: '',
   },
+  {
+    title: 'CryptoTools.net',
+    url: 'https://cryptotools.net',
+    keywords: [TOOL, 'AES', 'RSA', 'HASH', 'Base64'],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
