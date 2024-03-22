@@ -1,7 +1,7 @@
 {
   "name": "crypto-links",
   "description": "Crypto Links",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build && cp dist/index.html dist/404.html",
