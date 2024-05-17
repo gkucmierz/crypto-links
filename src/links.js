@@ -302,6 +302,12 @@ const links = [
     keywords: [TOOL, 'AES', 'RSA', 'HASH', 'Base64'],
     description: '',
   },
+  {
+    title: 'Top Fiat Currencies by Market Capitalization',
+    url: 'https://fiatmarketcap.com',
+    keywords: [BTC, 'FIAT'],
+    description: '',
+  },
   // {
   //   title: '',
   //   url: '',
