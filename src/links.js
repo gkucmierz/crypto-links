@@ -123,7 +123,7 @@ const links = [
     description: '',
   },
   {
-    title: 'Mampool space',
+    title: 'Mempool space',
     url: 'https://mempool.space',
     keywords: [BTC, BLOCKCHAIN, BLOCK_EXPLORER, MEMPOOL],
     description: '',
