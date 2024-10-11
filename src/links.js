@@ -25,6 +25,7 @@ const LN = 'LN';
 const SERVICE = 'service';
 const FEES = 'fees';
 const WATCH = 'watch';
+const EDUCATION = 'education';
 
 // categories:
 const TOOL = 'tool';
@@ -209,7 +210,7 @@ const links = [
   {
     title: 'Bitcoin Only',
     url: 'https://bitcoin-only.com',
-    keywords: [BTC, LINKS, 'education'],
+    keywords: [BTC, LINKS, EDUCATION],
     description: 'Collection of the highest quality Bitcoin resources',
   },
   {
@@ -306,6 +307,12 @@ const links = [
     title: 'Top Fiat Currencies by Market Capitalization',
     url: 'https://fiatmarketcap.com',
     keywords: [BTC, 'FIAT'],
+    description: '',
+  },
+  {
+    title: 'learn me a bitcoin',
+    url: 'https://learnmeabitcoin.com',
+    keywords: [BTC, EDUCATION, TOOL, 'tech'],
     description: '',
   },
   // {
